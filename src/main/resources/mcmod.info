@@ -1,0 +1,16 @@
+[
+{
+  "modid": "wolfmod",
+  "name": "WolfMod",
+  "description": "WolfMod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LeWolfYT","SidPlayzMC"],
+  "credits": "LeWolfMod Development Team",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
