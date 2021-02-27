@@ -1,5 +1,7 @@
 # Update 1.0.1.0-dev
 
+This update adds a creative tab to store WolfMod items and blocks.
+
 ## Additions
 -Added a creative tab called 'WolfTab' which stores items and blocks from WolfMod
 
