@@ -11,6 +11,7 @@ No removals in this update!
 ## Technical changes
 No technical changes in this update!
 
-Mod release date: mm/dd/yyyy @ hh:mm
-GitHub Repo: https://github.com/LeWolfYT/WolfMod
+<br>
+Mod release date: mm/dd/yyyy @ hh:mm<br>
+GitHub Repo: https://github.com/LeWolfYT/WolfMod<br>
 Issue Tracker: https://sidplayz.glitch.me/mods/wolfmod/issues

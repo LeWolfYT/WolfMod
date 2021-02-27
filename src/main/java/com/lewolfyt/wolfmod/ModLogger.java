@@ -3,7 +3,8 @@ package com.lewolfyt.wolfmod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.lewolfyt.wolfmod.client.modules.rpc.utils.StringUtils;
+// import com.lewolfyt.wolfmod.client.modules.rpc.utils.StringUtils;
+import com.lewolfyt.wolfmod.WolfMod;
 
 public class ModLogger {
     private final String loggerName;
@@ -26,7 +27,7 @@ public class ModLogger {
         } else {
             logInstance.error(logMessage, logArguments);
         }
-    }*/
+    }
 
     /**
      * Sends a Message with an WARNING Level to either Chat or Logs
