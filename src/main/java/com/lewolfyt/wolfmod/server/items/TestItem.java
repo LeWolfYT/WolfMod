@@ -15,21 +15,24 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class TestItem extends Item {
 	
-	protected int maxStackSize = 1;
+	protected int MAX_STACK_SIZE = 1;
 
 	@Override
 	public boolean onItemUse(ItemStack stack, EntityPlayer playerIn, World worldIn, BlockPos pos, EnumFacing side, float hitX, float hitY, float hitZ) {
-        if(!playerIn.isSneaking()) {
-        	if(stack.getTagCompound() == null) {
-        		stack.setTagCompound(new NBTTagCompound());
-        	}
-        	NBTTagCompound nbt = new NBTTagCompound();
-        	nbt.setFloat("dim", playerIn.dimension);
+		NBTTagCompound nbt = new NBTTagCompound();
+		
+		if(stack.getTagCompound() == null) {
+    		stack.setTagCompound(new NBTTagCompound());
+    	}
+    
+		if(!playerIn.isSneaking()) {
+           	nbt.setFloat("dim", playerIn.dimension);
         	nbt.setFloat("posX", pos.getX());
         	nbt.setFloat("posY", pos.getY());
         	nbt.setFloat("posZ", pos.getZ());
         	stack.getTagCompound().setTag("coords", nbt);
         	stack.setStackDisplayName(EnumChatFormatting.AQUA + "Test Item with ntb i mean nbt");
+        	
         }
 		return false;
     }
@@ -42,6 +45,7 @@ public class TestItem extends Item {
 				stack.clearCustomName();
 			}
 		}
+
         return stack;
     }
 	
@@ -69,9 +73,9 @@ public class TestItem extends Item {
         return false;
     }
 	
-	public Item setMaxStackSize(int maxStackSize)
-    {
-        this.maxStackSize = maxStackSize;
-        return this;
-    }
+public Item setMaxStackSize(int maxStackSize)
+  {
+    this.maxStackSize = MAX_STACK_SIZE;
+     return this;
+   }
 }
