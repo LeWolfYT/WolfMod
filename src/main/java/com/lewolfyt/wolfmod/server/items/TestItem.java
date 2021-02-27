@@ -19,12 +19,10 @@ public class TestItem extends Item {
 
 	@Override
 	public boolean onItemUse(ItemStack stack, EntityPlayer playerIn, World worldIn, BlockPos pos, EnumFacing side, float hitX, float hitY, float hitZ) {
-		NBTTagCompound nbt = new NBTTagCompound();
-		
 		if(stack.getTagCompound() == null) {
     		stack.setTagCompound(new NBTTagCompound());
     	}
-    
+		NBTTagCompound nbt = new NBTTagCompound();
 		if(!playerIn.isSneaking()) {
            	nbt.setFloat("dim", playerIn.dimension);
         	nbt.setFloat("posX", pos.getX());
@@ -73,9 +71,8 @@ public class TestItem extends Item {
         return false;
     }
 	
-public Item setMaxStackSize(int maxStackSize)
-  {
-    this.maxStackSize = MAX_STACK_SIZE;
-     return this;
-   }
+	public Item setMaxStackSize(int maxStackSize) {
+		this.maxStackSize = MAX_STACK_SIZE;
+		return this;
+	}
 }

@@ -3,7 +3,6 @@ package com.lewolfyt.wolfmod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-// import com.lewolfyt.wolfmod.client.modules.rpc.utils.StringUtils;
 import com.lewolfyt.wolfmod.WolfMod;
 
 public class ModLogger {

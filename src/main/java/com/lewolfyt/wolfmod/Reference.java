@@ -51,13 +51,13 @@ public class Reference {
 	public static final String USERNAME = Minecraft.getMinecraft().getSession().getUsername();
     public static boolean IS_VERBOSE = (Launch.blackboard != null && !Launch.blackboard.isEmpty() && Launch.blackboard.containsKey("fml.deobfuscatedEnvironment")) && (boolean) Launch.blackboard.get("fml.deobfuscatedEnvironment");
     public static boolean forceBlockTooltipRendering = false;
-    public static boolean IS_DEV = false;
+    public static boolean IS_DEV = false;*/
     
     // Web files
     public static final String UPDATE_JSON = "https://sidplayz.glitch.me/mods/wolfmod/update.json";
     
     // Code
-	static {
+	/*static {
         MODNAME = "@MOD_NAME@";
         VERSION_ID = "v@VERSION_ID@";
         VERSION_TYPE = "@VERSION_TYPE@";

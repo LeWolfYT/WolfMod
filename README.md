@@ -9,3 +9,8 @@ Items:<br>
 
 Creativetabs:<br>
 -WolfTab | A tab containing most of the WolfMod things
+
+
+## Where to get help
+
+If you need to submit a bug report or feature request, go to the issues section of this repository. If you need help with something go to our discord: <a href="https://discord.gg/CwDgFm8E">https://discord.gg/CwDgFm8E</a>
