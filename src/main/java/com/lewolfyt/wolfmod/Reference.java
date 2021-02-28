@@ -17,7 +17,7 @@ import com.google.common.collect.Lists;
 // import com.lewolfyt.wolfmod.client.modules.rpc.utils.FileUtils;
 // import com.lewolfyt.wolfmod.client.modules.rpc.utils.StringUtils;
 // import com.lewolfyt.wolfmod.client.modules.rpc.utils.TranslationUtils;
-import com.sidplayz.wolfmodutils.WebLinks;
+import com.sidplayz.wolfmodutils.WolfModVars;
 
 import net.minecraft.client.ClientBrandRetriever;
 import net.minecraft.client.Minecraft;
@@ -55,7 +55,7 @@ public class Reference {
     public static boolean IS_DEV = false;*/
     
     // Web files
-    public static final String UPDATE_JSON = WebLinks.RELEASES;
+    public static final String UPDATE_JSON = WolfModVars.RELEASES;
     
     // Code
 	/*static {

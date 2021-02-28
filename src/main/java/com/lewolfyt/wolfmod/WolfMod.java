@@ -5,6 +5,7 @@ import java.util.Timer;
 import com.lewolfyt.wolfmod.client.creativetabs.WolfTab;
 import com.lewolfyt.wolfmod.init.ModItems;
 import com.lewolfyt.wolfmod.server.proxy.CommonProxy;
+import com.sidplayz.wolfmodutils.WolfModVars;
 
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.common.Mod;
@@ -26,11 +27,11 @@ public class WolfMod {
     public static boolean isVerboseStatusOverridden = false;
     private boolean initialized = false;
     // public static ConfigUtils CONFIG;
+    public static final WolfTab tabWolf = new WolfTab("tabWolf");
+    public static final String REFERENCE_PATH = WolfModVars.REFERENCE_CLASS_PATH;
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
-	
-	public static final WolfTab tabWolf = new WolfTab("tabWolf");
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {

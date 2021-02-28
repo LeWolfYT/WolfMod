@@ -1,6 +1,8 @@
 package com.sidplayz.wolfmodutils;
 
-public class WebLinks {
+import com.lewolfyt.wolfmod.Reference;
+
+public class WolfModVars {
 
 	public static final String RELEASES = "http://sidplayz.glitch.me/mods/wolfmod/update.json";
 	public static final String GITHUB_REPO = "https://github.com/LeWolfYT/WolfMod";
@@ -12,5 +14,8 @@ public class WebLinks {
 	public static final String SOURCE_1_8_9 = "https://github.com/LeWolfYT/WolfMod/tree/1.8.9/src/main";
 	public static final String TREE_1_12_2 = "https://github.com/LeWolfYT/WolfMod/tree/1.12.2";
 	public static final String SOURCE_1_12_2 = "https://github.com/LeWolfYT/WolfMod/tree/1.12.2/src/main";
+	
+	public static final String REFERENCE_CLASS_PATH = "com.lewolfyt.wolfmod.Reference";
+	public static final Reference REFERENCE_CLASS = new Reference();
 	
 }
