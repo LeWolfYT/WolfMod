@@ -1,11 +1,9 @@
-# WolfMod
+# Fabric Example Mod
 
-WolfMod is a mod that does a bunch of stuff like discord rpc and other cool stuff.
+## Setup
 
-## Features
+For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
 
-Items:<br>
--Debug Item | An item used for testing if the mod is working
+## License
 
-Creativetabs:<br>
--WolfTab | A tab containing most of the WolfMod things
+This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
